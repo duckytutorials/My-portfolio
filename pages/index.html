@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About me!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+            .container {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body class="bg-[#1c1d1f]">
+<nav class="bg-[#0d0e0f] text-white w-full py-2 pl-2">
+  <button class="text-left text-white bg-[#39393b] px-2 rounded-md font-semibold hover:bg-[#3d3e46] "><a href="/contact"> Contact me</a></button>
+</nav>
+    <div class="flex h-screen">
+      <!-- Sidebar -->
+      <div class="flex w-64 flex-col border-r-2 border-solid border-[#202021] bg-[#1c1d1f]">
+        <div class="flex-grow py-4 px-8">
+          <a href="#" class="font-semibold text-white">Tools</a>
+          <br />
+          <button class="mt-2 rounded-md border-2 border-solid border-[#3b3b3d] bg-[#343536] px-2 py-1 font-thin text-white hover:border-[#2c2c2e] hover:bg-[#3d3e40]">
+            <a href="https://nodejs.org"> Node.JS </a></button
+          ><br />
+          <button class="mt-2 rounded-md border-2 border-solid border-[#3b3b3d] bg-[#343536] px-2 py-1 font-thin text-white hover:border-[#2c2c2e] hover:bg-[#3d3e40]">
+            <a href="https://npmjs.com/package/express"> Express.JS </a></button
+          ><br />
+          <button class="mt-2 rounded-md border-2 border-solid border-[#3b3b3d] bg-[#343536] px-2 py-1 font-thin text-white hover:border-[#2c2c2e] hover:bg-[#3d3e40]">
+            <a href="https://mongodb.com"> MongoDB </a></button
+          ><br />
+          <button class="mt-2 rounded-md border-2 border-solid border-[#3b3b3d] bg-[#343536] px-2 py-1 font-thin text-white hover:border-[#2c2c2e] hover:bg-[#3d3e40]">
+            <a href="https://code.visualstudio.com"> VSCode </a></button
+          ><br />
+          <button class="mt-2 rounded-md border-2 border-solid border-[#3b3b3d] bg-[#343536] px-2 py-1 font-thin text-white hover:border-[#2c2c2e] hover:bg-[#3d3e40]">
+            <a href="https://ejs.co"> EJS </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- Main Content -->
+      <div class="flex-grow bg-[#1c1d1f] p-8 text-white">
+        <h1 class="font-bold">Main Content</h1>
+        <p>Hello 👋! My name is duckey,</p><p>I am 14 years old i was born in 2008, december 7.</p><p class="mb-2">I am self thought, i live in yangon, burma/myanmar! Feel free to contact me</p>
+        <div class="mb-2">
+                        <h1 class="font-bold mb-1">My hobbies</h1> 
+    <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">Painting</button>
+            <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">Drawing</button>
+            <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">Listening to music</button>
+            <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">Studying</button>
+            <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600"><strike>Crying</strike></button>
+      </div>
+                <h1 class="font-bold">My projects</h1> <br>
+ 
+      <div class="grid grid-cols-1 items-center justify-center gap-5 p-5 md:grid-cols-2 md:gap-10">
+      <div class="items-center rounded-md border-4 border-solid border-gray-600 bg-gray-500 px-3 py-4 text-white">
+        <p class="-mb-6 ml-2 text-lg font-medium">CBOS</p>
+        <p><br /></p>
+        <p class="mb-2 ml-2 font-semibold">A custom bot system that makes custom bots and hosts it using pm2</p>
+        <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">
+          <a href="https://github.com/Nova-develoment-team/cbos-systems" class="hover:text-white"> <i class="fa-brands fa-github"></i> Github</a>
+        </button>
+      </div>
+          <div class="items-center rounded-md border-4 border-solid border-gray-600 bg-gray-500 px-3 py-4 text-white">
+        <p class="-mb-6 ml-2 text-lg font-medium">Nova-api</p>
+        <p><br /></p>
+        <p class="mb-2 ml-2 font-semibold">A api for images in nova and rank and others. It acts as a proxy and middle man for fetching from other apis</p>
+        <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">
+          <a href="https://github.com/Nova-develoment-team/Nova-api" class="hover:text-white"> <i class="fa-brands fa-github"></i> Github</a>
+        </button>
+      </div>
+      <div class="items-center rounded-md border-4 border-solid border-gray-600 bg-gray-500 px-3 py-4 text-white">
+        <p class="-mb-6 ml-2 text-lg font-medium">Open status</p>
+        <p><br /></p>
+        <p class="mb-2 ml-2 font-semibold">Status monitor with admin gui to monitor sites and connect you code to the api and monitor live data</p>
+        <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600">
+          <a href="https://github.com/Nova-develoment-team/Open-status" class="hover:text-white"> <i class="fa-brands fa-github"></i> Github</a>
+        </button>
+      </div>
+          <div class="items-center rounded-md border-4 border-solid border-gray-600 bg-gray-500 px-3 py-4 text-white">
+        <p class="-mb-6 ml-2 text-lg font-medium">nova-log.js</p>
+        <p><br /></p>
+        <p class="mb-2 ml-2 font-semibold">A colorfull logger that allows you to save all your logs in a file or also log it into discord or save it in a MongoDB</p>
+        <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600 mr-2">
+          <a href="https://github.com/Nova-develoment-team/nova-log-js" class="hover:text-white "> <i class="fa-brands fa-github"></i> Github</a> 
+        </button>
+
+            <button class="ml-1 rounded-md bg-gray-700 px-2 py-1 hover:bg-gray-600 mr-0.5">
+          <a href="https://npmjs.com/package/nova-log.js" class="hover:text-white "> <i class="fa-brands fa-npm"></i> NPM</a> 
+        </button>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>
+
